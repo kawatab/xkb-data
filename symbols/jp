@@ -321,3 +321,11 @@ partial alphanumeric_keys
 	xkb_symbols "sun_type7" {
 	include "sun_vndr/jp(sun_type7)"
 };
+
+// added by kawatab@yahoo.co.jp on 7 Nov, 2015
+
+partial alphanumeric_keys
+    xkb_symbols "esdf" {
+    name[Group1]= "Japanese (ESDF keys)";
+    include "jp_alt(jp-esdf)"
+};
