@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is data for xkb to provide Japanese keyboard layout and US keyboard layout with ESDF keys and Japanese specific keys, and Hungarian keyboard layout with Japanese specific keys. <LSGT> key may work as left Ctrl key.
+This is data for xkb to provide Japanese keyboard layout and US keyboard layout with ESDF keys and Japanese specific keys, and Hungarian keyboard layout with Japanese specific keys. \<LSGT\> key may work as left Ctrl key.
 
 This is one of options for using ESDF keys. You can use ESDF keys, Home/End, PgUp/PgDn and BS with pressing AltGr without your hand moving from home position.
 
@@ -96,12 +96,12 @@ AltGr + l : Henkan
 
 ## Known problem
 
-- Even in Hungarian keyboard layout, <LSGT> (í) key can work as ctrl key. Don't push any key quickly after push <LSGT>.
+- Even in Hungarian keyboard layout, \<LSGT\> (í) key can work as ctrl key. Don't push any key quickly after push \<LSGT\>.
 
 -----------
 ## これはなんですか？
 
-これは日本語キーボードレイアウトや英語キーボードレイアウトにESDFキーや日本版独自のキーを追加したり、ハンガリー語キーボードレイアウトに日本語版独自のキーを追加するためのものです。<LSGT>キーをコントロールキーとして使うこともできます。
+これは日本語キーボードレイアウトや英語キーボードレイアウトにESDFキーや日本版独自のキーを追加したり、ハンガリー語キーボードレイアウトに日本語版独自のキーを追加するためのものです。\<LSGT\>キーをコントロールキーとして使うこともできます。
 
 これはESDFキーを使うための選択肢の1つです。AltGrキーを押すことで、手をホームボジションに置いたまま、 ESDFキーの他にHome/EndやPgUp/Dn、バックスペースを押すことができます。
 
@@ -195,4 +195,4 @@ AltGr + l : Henkan
 
 ## 既知の問題
 
-- ハンガリー語キーボードレイアウトにおいても<LSGT> (í) キーがCtrlキーとして動作してしまいます。<LSGT>を押した後は、他のキーを素早く押さないようにしてください。
+- ハンガリー語キーボードレイアウトにおいても\<LSGT\> (í) キーがCtrlキーとして動作してしまいます。\<LSGT\>を押した後は、他のキーを素早く押さないようにしてください。
