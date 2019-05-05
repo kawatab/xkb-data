@@ -78,11 +78,13 @@ AltGr + g : end
 
 AltGr + h : Muhenkan
 
-AltGr + j : Hiragana
+~~AltGr + j : Hiragana~~
+AltGr + j : Henkan
 
 AltGr + k : Eisu
 
-AltGr + l : Henkan
+~~AltGr + l : Henkan~~
+AltGr + l : Hiragana-katakana
 
 ~~AltGr + z : Hiragana~~
 
@@ -174,13 +176,15 @@ AltGr + f : move right
 
 AltGr + g : end
 
-AltGr + h : Muhenkan
+AltGr + h : 無変換
 
-AltGr + j : Hiragana
+~~AltGr + j : ひらがな~~
+AltGr + j : 変換
 
-AltGr + k : Eisu
+AltGr + k : 英数
 
-AltGr + l : Henkan
+~~AltGr + l : 変換~~
+AltGr + l : ひらがなカタカナ
 
 ~~AltGr + z : Hiragana~~
 
