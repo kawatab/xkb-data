@@ -3098,6 +3098,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>esdf-jp</name>
+            <description>English (ESDF keys and Japanese specific keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>chr</name>
             <!-- Keyboard indicator for Cherokee layouts -->
             <shortDescription>chr</shortDescription>
@@ -4153,6 +4159,12 @@
             <description>Hungarian (QWERTY, 102-key, dot, no dead keys)</description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>jp_keys</name>
+            <description>Hungarian (standard with Japanese specific keys)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -4957,6 +4969,12 @@
           <configItem>
             <name>dvorak</name>
             <description>Japanese (Dvorak)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>esdf</name>
+            <description>Japanese (OADG 109A with ESDF keys)</description>
           </configItem>
         </variant>
       </variantList>

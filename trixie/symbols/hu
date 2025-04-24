@@ -815,3 +815,21 @@ xkb_symbols "us" {
 
     include "level3(ralt_switch)"
 };
+
+
+// modified by kawatab@gmail.com on 24 Apr 2025
+// modified by kawatab@yahoo.co.jp on 17 Feb, 2017
+// created by kawatab@yahoo.co.jp on 7 Nov 2015
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "jp_keys" {
+   name[Group1]= "Hungarian (standard with Japanese specific keys)";
+    include "latin"
+    include "hu(def_101)"
+    include "hu(def_qwertz)"
+    include "kpdl(comma)"
+    include "hu(def_dead)"
+    include "hu(def_common)"
+    include "level3(ralt_switch)"
+    include "jp_alt(common)"
+};

@@ -438,6 +438,7 @@
   workman         us: English (Workman)
   workman-intl    us: English (Workman, intl., with dead keys)
   olpc2           us: English (the divide/multiply toggle the layout)
+  esdf-jp         us: English (international AltGr dead keys with ESDF keys and Japanese specific keys)
   chr             us: Cherokee
   haw             us: Hawaiian
   rus             us: Russian (US, phonetic)
@@ -542,6 +543,7 @@
   102_qwerty_comma_nodead hu: Hungarian (QWERTY, 102-key, comma, no dead keys)
   102_qwerty_dot_dead hu: Hungarian (QWERTY, 102-key, dot, dead keys)
   102_qwerty_dot_nodead hu: Hungarian (QWERTY, 102-key, dot, no dead keys)
+  jp_keys hu: Hungarian (standard with Japanese specific keys)
   mac_legacy      is: Icelandic (Macintosh, legacy)
   mac             is: Icelandic (Macintosh)
   dvorak          is: Icelandic (Dvorak)
@@ -607,6 +609,7 @@
   kana            jp: Japanese (Kana)
   kana86          jp: Japanese (Kana 86)
   OADG109A        jp: Japanese (OADG 109A)
+  esdf            jp: Japanese (ESDF keys)
   mac             jp: Japanese (Macintosh)
   dvorak          jp: Japanese (Dvorak)
   kazrus          kz: Kazakh (with Russian)

@@ -2228,3 +2228,16 @@ xkb_symbols "de_se_fi"  {
 
     include "level3(ralt_switch)"
 };
+
+
+// modified by kawatab@gmail.com on 24 Apr 2025
+// modified by kawatab@yahoo.co.jp on 25 Jul, 2021
+// modified by kawatab@yahoo.co.jp on 18 Feb, 2017
+// created by kawatab@yahoo.co.jp on 7 Nov, 2015
+
+partial alphanumeric_keys modifier_keys
+   xkb_symbols "esdf-jp" {
+   name[Group1]= "English (international AltGr dead keys with ESDF keys and Japanese specific keys)";
+   include "us(altgr-intl)"
+   include "jp_alt(esdf)"
+};

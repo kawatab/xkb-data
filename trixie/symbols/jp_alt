@@ -1,0 +1,104 @@
+// Replace or Add Japanese specific keys (by kawatab@yahoo.co.jp)
+// Modified by kawatab@gmail.com on 24 Apr 2025
+// Created by kawatab@yahoo.co.jp on 7 Nov 2015
+
+// xkb_compatibility {
+  // interpret ISO_Level3_Shift { action= SetMods(modifiers=Mod5); };
+// }
+
+// xkb_types {
+  // type "THREE_LEVEL" { modifiers = Shift+Mod5;
+                       // map[Shift] = Level2;
+                       // map[Mod5] = Level3;
+                       // map[Shift+Mod5] = Level3;
+                       // level_name[Level1] = "Base";
+                       // level_name[Level2] = "Shift";
+                       // level_name[Level3] = "Level3"; };
+// }
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "common" {
+  key <AC06> { [         h,      H,              Muhenkan, Muhenkan ]
+  //,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<MUHE>, clearmods=Mod5) ]
+	       };
+
+  key <AC07> { [         j,      J,                Henkan, Henkan]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<HENK>, clearmods=Mod5) ]
+	       };
+
+  key <AC08> { [         k,      K,           Eisu_toggle, Eisu_toggle ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<EISU>, clearmods=Mod5) ]
+	       };
+
+  key <AC09> { [         l,      L,     Hiragana, Katakana ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<HIRA>, clearmods=Mod5) ]
+	       };
+};
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "esdf" {
+  include "jp_alt(common)"
+
+  // key.type = "THREE_LEVEL";
+  key <AD01> { [         q,      Q,    BackSpace, BackSpace ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<BKSP>, clearmods=Mod5) ]
+	       };
+
+  key <AD02> { [         w,      W,        Prior, Prior ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<PGUP>, clearmods=Mod5) ]
+	       };
+
+  key <AD03> { [         e,      E,           Up, Up ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<UP>,   clearmods=Mod5) ]
+	       };
+
+  key <AD04> { [         r,      R,         Next, Next ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+		// RedirectKey(key=<PGDN>, clearmods=Mod5) ]
+		};
+
+  key <AC01> { [         a,      A,         Home, Home ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<HOME>, clearmods=Mod5) ]
+	       };
+
+  key <AC02> { [         s,      S,         Left, Left ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<LEFT>, clearmods=Mod5) ]
+	       };
+
+  key <AC03> { [         d,      D,         Down, Down ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<DOWN>, clearmods=Mod5) ]
+	       };
+
+  key <AC04> { [         f,      F,        Right, Right ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<RGHT>, clearmods=Mod5) ]
+	       };
+
+  key <AC05> { [         g,      G,          End, End ]
+  // ,
+               // actions[Group1] = [ NoAction(), NoAction(),
+               // RedirectKey(key=<END>,  clearmods=Mod5) ]
+	       };
+};
