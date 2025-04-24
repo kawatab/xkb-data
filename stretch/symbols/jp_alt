@@ -1,0 +1,26 @@
+// Modified by kawatab@yahoo.co.jp on 25 Apr 2025
+//
+// Replace or Add Japanese specific keys (by kawatab@yahoo.co.jp)
+// Created by kawatab@yahoo.co.jp on 7 Nov, 2015
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "common" {
+  key <AC06> { [         h,      H,     Muhenkan,    Muhenkan ] };
+  key <AC07> { [         j,      J,       Henkan,      Henkan ] };
+  key <AC08> { [         k,      K,  Eisu_toggle, Eisu_toggle ] };
+  key <AC09> { [         l,      L,     Hiragana,    Katakana ] };
+};
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "esdf" {
+  include "jp_alt(common)"
+  key <AD01> { [         q,      Q,    BackSpace, BackSpace ] };
+  key <AD02> { [         w,      W,        Prior,     Prior ] };
+  key <AD03> { [         e,      E,           Up,        Up ] };
+  key <AD04> { [         r,      R,         Next,      Next ] };
+  key <AC01> { [         a,      A,         Home,      Home ] };
+  key <AC02> { [         s,      S,         Left,      Left ] };
+  key <AC03> { [         d,      D,         Down,      Down ] };
+  key <AC04> { [         f,      F,        Right,     Right ] };
+  key <AC05> { [         g,      G,          End,       End ] };
+};

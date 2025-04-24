@@ -322,11 +322,21 @@ partial alphanumeric_keys
 	include "sun_vndr/jp(sun_type7)"
 };
 
-// added by kawatab@yahoo.co.jp on 18 Feb, 2017
-// created by kawatab@yahoo.co.jp on 7 Nov, 2015
+// Modified by kawatab@yahoo.co.jp on 25 Apr 2025
+//
+// Added by kawatab@yahoo.co.jp on 18 Feb, 2017
+// Created by kawatab@yahoo.co.jp on 7 Nov, 2015
 
-partial alphanumeric_keys
+partial modifier_keys
     xkb_symbols "esdf" {
     name[Group1]= "Japanese (ESDF keys)";
-    include "jp_alt(jp-esdf)"
+    include "jp(OADG109A)"
+
+    key <HENK> { type[Group1] = "ONE_LEVEL",
+               symbols[Group1] = [ ISO_Level3_Shift ] };
+
+    include "level3(modifier_mapping)"
+
+    key <MUHE> { [ Control_L ]  };
+    modifier_map Control { <MUHE> };
 };
